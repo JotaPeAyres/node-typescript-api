@@ -22,6 +22,7 @@
   "scripts": {
     "build": "tsc",
     "start": "yarn build && node ./dist/src/index.js",
+    "start:dev": "tsx ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src ./test --ext .ts --fix"
@@ -33,6 +34,7 @@
     "@typescript-eslint/eslint-plugin": "^8.53.0",
     "@typescript-eslint/parser": "^8.53.0",
     "eslint": "^9.39.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.53.0"
   },
